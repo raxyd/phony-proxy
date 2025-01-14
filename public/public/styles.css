@@ -1,0 +1,39 @@
+html {
+  background-color: rgb(143, 228, 139);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: rgb(43, 132, 16);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 100px;
+  border: 5px, solid, #399147;
+  width: 205px;
+  background-color: #7bba7b;
+}
+
+    .black-button {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .black-button:hover {
+        background-color: darkgray;
+    }
+
